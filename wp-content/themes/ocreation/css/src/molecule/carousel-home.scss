@@ -1,0 +1,55 @@
+#owl-demo {
+  .owl-item {
+    height: 100%;
+    .item {
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+.owl-wrapper{
+  height:100%;
+}
+
+.owl-carousel .owl-wrapper-outer{
+  height:100%;
+}
+
+/*
+.owl-pagination{
+  position: absolute;
+  width: 15px;
+  height: auto;
+  top: 20px;
+  left: 40px;
+  .owl-page{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255,255,255,0.5);
+    margin-top:10px;
+    margin-bottom:10px;
+    &.active{
+      background-color: rgba(255,255,255,1);
+    }
+    @media #{$mobile}{
+      display: none;
+    }
+  }
+} */
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.home-item{
+  background-size:cover;
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  bottom:0;
+}

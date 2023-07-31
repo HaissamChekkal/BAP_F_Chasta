@@ -1,0 +1,21 @@
+ul{
+  &.sociaux-home{
+    position: absolute;
+    z-index: 3;
+    padding: 0;
+    top: 30px;
+    right: 30px;
+    list-style-type: none;
+    li{
+      a{
+        color: #fff;
+        font-size:1.7em;
+        &:visited{
+          color: #fff;
+        }
+      }
+      margin-top:8px;
+      margin-bottom:8px;
+    }
+  }
+}

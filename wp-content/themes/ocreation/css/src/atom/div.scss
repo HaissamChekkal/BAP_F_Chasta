@@ -1,0 +1,103 @@
+html,body,p,a,h1,h2,h3,h4,h5,h6,span,ul,li{
+  font-family: Raleway, Arial,sans-serif;
+}
+body{
+  background-color: #111111;
+  @media #{$mobile} {
+    background-color: #fff;
+  }
+}
+
+
+.bg-white{
+  background-color: #fff;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+#owl-demo{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+.taxonomy{
+  padding: 0;
+  .grayscale{
+    filter: grayscale(1);
+    transition: filter 0.3s ease;
+  }
+  .grayscale:hover{
+    filter: grayscale(0);
+  }
+  a{
+    color: white;
+  }
+  a:hover{
+    color: white;
+  }
+}
+.title-taxonomy{
+  font-size: 12pt;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.p-taxonomy{
+  font-size: 8pt;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.background-cover{
+  background-size: cover;
+  position: relative;
+}
+.voile{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.25);
+  transition: background-color 0.3s ease;
+  &:hover{
+    background-color: rgba(0,0,0,0.15);
+  }
+}
+
+.voile-darker{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.75);
+  transition: background-color 0.3s ease;
+  &:hover{
+    background-color: rgba(0,0,0,0.50);
+  }
+}
+
+.background-menu{
+  position: absolute;
+  bottom: 0;
+  width: 25%;
+  left: 0;
+  height: 50%;
+  background-color: #111;
+  @media #{$mobile-tablet}{
+    display: none;
+  }
+}
