@@ -3,8 +3,6 @@
 
 ## URL
 
-Dev : http://iim.bastienmalahieude.fr/ocreation
-
 Prod : http://f-chasta-creations.com/
 
 
